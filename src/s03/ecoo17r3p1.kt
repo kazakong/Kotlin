@@ -1,7 +1,7 @@
 package s03
 
 fun main() {
-    for (dataset in 1..10) {  // repeat(10)을 대체하는 일반 반복문
+    for (dataset in 1..10) {
         val (F, D) = readLine()!!.split(" ").map { it.toInt() }
 
         val data = Array(D) {
